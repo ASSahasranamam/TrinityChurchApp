@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0370A22034EA00002DC64C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0370A12034EA00002DC64C /* AppDelegate.swift */; };
+		AD0370A42034EA00002DC64C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0370A32034EA00002DC64C /* ViewController.swift */; };
+		AD0370A72034EA00002DC64C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0370A52034EA00002DC64C /* Main.storyboard */; };
+		AD0370A92034EA00002DC64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0370A82034EA00002DC64C /* Assets.xcassets */; };
+		AD0370AC2034EA00002DC64C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0370AA2034EA00002DC64C /* LaunchScreen.storyboard */; };
+		AD0370B72034EA00002DC64C /* TrinityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0370B62034EA00002DC64C /* TrinityAppTests.swift */; };
+		AD0370C22034EA00002DC64C /* TrinityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0370C12034EA00002DC64C /* TrinityAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD0370B32034EA00002DC64C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0370962034EA00002DC64C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD03709D2034EA00002DC64C;
+			remoteInfo = TrinityApp;
+		};
+		AD0370BE2034EA00002DC64C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0370962034EA00002DC64C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD03709D2034EA00002DC64C;
+			remoteInfo = TrinityApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD03709E2034EA00002DC64C /* TrinityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrinityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0370A12034EA00002DC64C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD0370A32034EA00002DC64C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD0370A62034EA00002DC64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD0370A82034EA00002DC64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0370AB2034EA00002DC64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD0370AD2034EA00002DC64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0370B22034EA00002DC64C /* TrinityAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrinityAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0370B62034EA00002DC64C /* TrinityAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrinityAppTests.swift; sourceTree = "<group>"; };
+		AD0370B82034EA00002DC64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0370BD2034EA00002DC64C /* TrinityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrinityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0370C12034EA00002DC64C /* TrinityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrinityAppUITests.swift; sourceTree = "<group>"; };
+		AD0370C32034EA00002DC64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD03709B2034EA00002DC64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0370AF2034EA00002DC64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0370BA2034EA00002DC64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0370952034EA00002DC64C = {
+			isa = PBXGroup;
+			children = (
+				AD0370A02034EA00002DC64C /* TrinityApp */,
+				AD0370B52034EA00002DC64C /* TrinityAppTests */,
+				AD0370C02034EA00002DC64C /* TrinityAppUITests */,
+				AD03709F2034EA00002DC64C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD03709F2034EA00002DC64C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD03709E2034EA00002DC64C /* TrinityApp.app */,
+				AD0370B22034EA00002DC64C /* TrinityAppTests.xctest */,
+				AD0370BD2034EA00002DC64C /* TrinityAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD0370A02034EA00002DC64C /* TrinityApp */ = {
+			isa = PBXGroup;
+			children = (
+				AD0370A12034EA00002DC64C /* AppDelegate.swift */,
+				AD0370A32034EA00002DC64C /* ViewController.swift */,
+				AD0370A52034EA00002DC64C /* Main.storyboard */,
+				AD0370A82034EA00002DC64C /* Assets.xcassets */,
+				AD0370AA2034EA00002DC64C /* LaunchScreen.storyboard */,
+				AD0370AD2034EA00002DC64C /* Info.plist */,
+			);
+			path = TrinityApp;
+			sourceTree = "<group>";
+		};
+		AD0370B52034EA00002DC64C /* TrinityAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0370B62034EA00002DC64C /* TrinityAppTests.swift */,
+				AD0370B82034EA00002DC64C /* Info.plist */,
+			);
+			path = TrinityAppTests;
+			sourceTree = "<group>";
+		};
+		AD0370C02034EA00002DC64C /* TrinityAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0370C12034EA00002DC64C /* TrinityAppUITests.swift */,
+				AD0370C32034EA00002DC64C /* Info.plist */,
+			);
+			path = TrinityAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD03709D2034EA00002DC64C /* TrinityApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0370C62034EA00002DC64C /* Build configuration list for PBXNativeTarget "TrinityApp" */;
+			buildPhases = (
+				AD03709A2034EA00002DC64C /* Sources */,
+				AD03709B2034EA00002DC64C /* Frameworks */,
+				AD03709C2034EA00002DC64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrinityApp;
+			productName = TrinityApp;
+			productReference = AD03709E2034EA00002DC64C /* TrinityApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD0370B12034EA00002DC64C /* TrinityAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0370C92034EA00002DC64C /* Build configuration list for PBXNativeTarget "TrinityAppTests" */;
+			buildPhases = (
+				AD0370AE2034EA00002DC64C /* Sources */,
+				AD0370AF2034EA00002DC64C /* Frameworks */,
+				AD0370B02034EA00002DC64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0370B42034EA00002DC64C /* PBXTargetDependency */,
+			);
+			name = TrinityAppTests;
+			productName = TrinityAppTests;
+			productReference = AD0370B22034EA00002DC64C /* TrinityAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD0370BC2034EA00002DC64C /* TrinityAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0370CC2034EA00002DC64C /* Build configuration list for PBXNativeTarget "TrinityAppUITests" */;
+			buildPhases = (
+				AD0370B92034EA00002DC64C /* Sources */,
+				AD0370BA2034EA00002DC64C /* Frameworks */,
+				AD0370BB2034EA00002DC64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0370BF2034EA00002DC64C /* PBXTargetDependency */,
+			);
+			name = TrinityAppUITests;
+			productName = TrinityAppUITests;
+			productReference = AD0370BD2034EA00002DC64C /* TrinityAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD0370962034EA00002DC64C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tlc4u;
+				TargetAttributes = {
+					AD03709D2034EA00002DC64C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AD0370B12034EA00002DC64C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD03709D2034EA00002DC64C;
+					};
+					AD0370BC2034EA00002DC64C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD03709D2034EA00002DC64C;
+					};
+				};
+			};
+			buildConfigurationList = AD0370992034EA00002DC64C /* Build configuration list for PBXProject "TrinityApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD0370952034EA00002DC64C;
+			productRefGroup = AD03709F2034EA00002DC64C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD03709D2034EA00002DC64C /* TrinityApp */,
+				AD0370B12034EA00002DC64C /* TrinityAppTests */,
+				AD0370BC2034EA00002DC64C /* TrinityAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD03709C2034EA00002DC64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0370AC2034EA00002DC64C /* LaunchScreen.storyboard in Resources */,
+				AD0370A92034EA00002DC64C /* Assets.xcassets in Resources */,
+				AD0370A72034EA00002DC64C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0370B02034EA00002DC64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0370BB2034EA00002DC64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD03709A2034EA00002DC64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0370A42034EA00002DC64C /* ViewController.swift in Sources */,
+				AD0370A22034EA00002DC64C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0370AE2034EA00002DC64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0370B72034EA00002DC64C /* TrinityAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0370B92034EA00002DC64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0370C22034EA00002DC64C /* TrinityAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD0370B42034EA00002DC64C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD03709D2034EA00002DC64C /* TrinityApp */;
+			targetProxy = AD0370B32034EA00002DC64C /* PBXContainerItemProxy */;
+		};
+		AD0370BF2034EA00002DC64C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD03709D2034EA00002DC64C /* TrinityApp */;
+			targetProxy = AD0370BE2034EA00002DC64C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD0370A52034EA00002DC64C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0370A62034EA00002DC64C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD0370AA2034EA00002DC64C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0370AB2034EA00002DC64C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD0370C42034EA00002DC64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD0370C52034EA00002DC64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0370C72034EA00002DC64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrinityApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.tlc4u.TrinityApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD0370C82034EA00002DC64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrinityApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.tlc4u.TrinityApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD0370CA2034EA00002DC64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrinityAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.tlc4u.TrinityAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrinityApp.app/TrinityApp";
+			};
+			name = Debug;
+		};
+		AD0370CB2034EA00002DC64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrinityAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.tlc4u.TrinityAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrinityApp.app/TrinityApp";
+			};
+			name = Release;
+		};
+		AD0370CD2034EA00002DC64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrinityAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.tlc4u.TrinityAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrinityApp;
+			};
+			name = Debug;
+		};
+		AD0370CE2034EA00002DC64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrinityAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.tlc4u.TrinityAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrinityApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD0370992034EA00002DC64C /* Build configuration list for PBXProject "TrinityApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0370C42034EA00002DC64C /* Debug */,
+				AD0370C52034EA00002DC64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0370C62034EA00002DC64C /* Build configuration list for PBXNativeTarget "TrinityApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0370C72034EA00002DC64C /* Debug */,
+				AD0370C82034EA00002DC64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0370C92034EA00002DC64C /* Build configuration list for PBXNativeTarget "TrinityAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0370CA2034EA00002DC64C /* Debug */,
+				AD0370CB2034EA00002DC64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0370CC2034EA00002DC64C /* Build configuration list for PBXNativeTarget "TrinityAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0370CD2034EA00002DC64C /* Debug */,
+				AD0370CE2034EA00002DC64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD0370962034EA00002DC64C /* Project object */;
+}
