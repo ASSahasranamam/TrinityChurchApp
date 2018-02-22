@@ -13,6 +13,8 @@
 		AD0370AC2034EA00002DC64C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0370AA2034EA00002DC64C /* LaunchScreen.storyboard */; };
 		AD0370B72034EA00002DC64C /* TrinityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0370B62034EA00002DC64C /* TrinityAppTests.swift */; };
 		AD0370C22034EA00002DC64C /* TrinityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0370C12034EA00002DC64C /* TrinityAppUITests.swift */; };
+		AD113930203E31CA00DF7E84 /* GiveWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11392F203E31CA00DF7E84 /* GiveWebViewController.swift */; };
+		AD113932203E383100DF7E84 /* GroupsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD113931203E383100DF7E84 /* GroupsWebViewController.swift */; };
 		AD5149462038936900E3E5D3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5149452038936900E3E5D3 /* SWRevealViewController.m */; };
 		AD5149482038A3A200E3E5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5149472038A3A200E3E5D3 /* ViewController.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +49,8 @@
 		AD0370BD2034EA00002DC64C /* TrinityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrinityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0370C12034EA00002DC64C /* TrinityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrinityAppUITests.swift; sourceTree = "<group>"; };
 		AD0370C32034EA00002DC64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD11392F203E31CA00DF7E84 /* GiveWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveWebViewController.swift; sourceTree = "<group>"; };
+		AD113931203E383100DF7E84 /* GroupsWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsWebViewController.swift; sourceTree = "<group>"; };
 		AD5149432038936700E3E5D3 /* TrinityApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrinityApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		AD5149442038936800E3E5D3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		AD5149452038936900E3E5D3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				AD0370AD2034EA00002DC64C /* Info.plist */,
 				AD5149432038936700E3E5D3 /* TrinityApp-Bridging-Header.h */,
 				AD5149472038A3A200E3E5D3 /* ViewController.swift */,
+				AD11392F203E31CA00DF7E84 /* GiveWebViewController.swift */,
+				AD113931203E383100DF7E84 /* GroupsWebViewController.swift */,
 			);
 			path = TrinityApp;
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD5149482038A3A200E3E5D3 /* ViewController.swift in Sources */,
+				AD113932203E383100DF7E84 /* GroupsWebViewController.swift in Sources */,
 				AD0370A22034EA00002DC64C /* AppDelegate.swift in Sources */,
 				AD5149462038936900E3E5D3 /* SWRevealViewController.m in Sources */,
+				AD113930203E31CA00DF7E84 /* GiveWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

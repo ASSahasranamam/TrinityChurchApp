@@ -7,16 +7,20 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
+
     @IBOutlet weak var checkInButton: UIBarButtonItem!
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
             sideMenus()
             customizeNavBar()
         // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {

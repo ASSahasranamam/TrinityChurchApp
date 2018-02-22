@@ -308,21 +308,40 @@
             </objects>
             <point key="canvasLocation" x="614" y="179"/>
         </scene>
-        <!--Contact-->
+        <!--Give-->
         <scene sceneID="rmv-Bg-2YM">
             <objects>
-                <viewController id="ovu-9M-lVw" sceneMemberID="viewController">
+                <viewController id="ovu-9M-lVw" customClass="GiveWebViewController" customModule="TrinityApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cBQ-8L-U1q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.2274509804" green="0.76862745099999996" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tRo-fe-kIC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="tRo-fe-kIC" firstAttribute="trailing" secondItem="fgg-CN-FxP" secondAttribute="trailing" id="J10-dK-9ye"/>
+                            <constraint firstItem="tRo-fe-kIC" firstAttribute="leading" secondItem="fgg-CN-FxP" secondAttribute="leading" id="bOU-g9-Yy6"/>
+                            <constraint firstItem="tRo-fe-kIC" firstAttribute="bottom" secondItem="fgg-CN-FxP" secondAttribute="bottom" id="cRg-4d-vum"/>
+                            <constraint firstItem="tRo-fe-kIC" firstAttribute="top" secondItem="fgg-CN-FxP" secondAttribute="top" id="t8k-2j-XJA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fgg-CN-FxP"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Contact" image="icons8-phone-50" id="bD7-cP-2fn"/>
+                    <tabBarItem key="tabBarItem" title="Give" image="icons8-handshake-heart-50" id="bD7-cP-2fn"/>
+                    <connections>
+                        <outlet property="giveWebView" destination="tRo-fe-kIC" id="9yP-Wx-NEF"/>
+                        <outlet property="webView" destination="tRo-fe-kIC" id="16B-bF-44F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="da8-f9-ltg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1231" y="1925"/>
+            <point key="canvasLocation" x="1229.5999999999999" y="1924.5877061469266"/>
         </scene>
         <!--Resources-->
         <scene sceneID="Rnk-Xk-y6Y">
@@ -343,18 +362,51 @@
         <!--Groups-->
         <scene sceneID="vhr-SV-4nX">
             <objects>
-                <viewController id="d9N-N4-hd2" sceneMemberID="viewController">
+                <viewController id="d9N-N4-hd2" customClass="GroupsWebViewController" customModule="TrinityApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hce-Ld-CqX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6eM-LU-okb">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="6eM-LU-okb" firstAttribute="trailing" secondItem="Ur7-Jw-d92" secondAttribute="trailing" id="JPz-wJ-2Pt"/>
+                            <constraint firstItem="6eM-LU-okb" firstAttribute="top" secondItem="Ur7-Jw-d92" secondAttribute="top" id="cVB-rA-x56"/>
+                            <constraint firstItem="6eM-LU-okb" firstAttribute="leading" secondItem="Ur7-Jw-d92" secondAttribute="leading" id="dCR-rF-MYt"/>
+                            <constraint firstItem="6eM-LU-okb" firstAttribute="bottom" secondItem="Ur7-Jw-d92" secondAttribute="bottom" id="k3d-WV-l0E"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ur7-Jw-d92"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Groups" image="icons8-handshake-heart-50" id="Wbc-Rd-BTC"/>
+                    <connections>
+                        <outlet property="webView" destination="6eM-LU-okb" id="Ip1-tp-fdb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTg-dX-3nh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1657" y="464"/>
+            <point key="canvasLocation" x="1656.8" y="463.71814092953525"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="X40-cn-Ccb">
+            <objects>
+                <viewController id="1sd-hr-1pC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2uQ-6z-QKv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="uQe-5b-v7B"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uA1-DE-VeP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1018" y="-578"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="919-4R-tzB">
@@ -472,7 +524,6 @@
         <image name="icons8-handshake-heart-50" width="25" height="25"/>
         <image name="icons8-marker-50" width="25" height="25"/>
         <image name="icons8-menu-50" width="25" height="25"/>
-        <image name="icons8-phone-50" width="25" height="25"/>
         <image name="icons8-play-50" width="25" height="25"/>
         <image name="tlc4u-logo2" width="437" height="128"/>
         <image name="trinity-galewood-cover-crop" width="1687" height="2283"/>
