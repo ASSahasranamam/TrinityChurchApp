@@ -9,27 +9,29 @@
 import UIKit
 import WebKit
 
-class GroupsWebViewController: UIViewController, WKUIDelegate {
+class GroupsWebViewController: UIViewController, WKNavigationDelegate {
 
 
     @IBOutlet weak var webView: WKWebView!
     
+    //This is not used yet. It is here in case we make more than one
+    //webpage allowed - Ryan K.
+    //var allowedWebsites = ["https://tlc4u.churchcenter.com/groups"]
+
+    
     override func loadView() {
-        let webConfiguration = WKWebViewConfiguration()
-        webView = WKWebView(frame: .zero, configuration: webConfiguration)
-        webView.uiDelegate = self
+        webView = WKWebView()
+        webView.navigationDelegate = self
         view = webView
     }
     
     override func viewDidLoad() {
+        print("WE ARE IN VIEWDIDLOAD");
         super.viewDidLoad()
-        
         //importing give weblink
-        let myURL = URL(string: "https://tlc4u.churchcenter.com/groups")
-        let myRequest = URLRequest(url: myURL!)
-        webView.load(myRequest)
-        
-        // Do any additional setup after loading the view.
+        let url = URL(string: "https://tlc4u.churchcenter.com/groups")
+        webView.load(URLRequest(url: url!))
+        webView.allowsBackForwardNavigationGestures = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -37,16 +39,17 @@ class GroupsWebViewController: UIViewController, WKUIDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //This blocks any website that is not tlc4u.
+    //It basically examines the url if it contains the tcl4u address. - Ryan K.
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void){
+        let url = navigationAction.request.url
+        if String(describing: url).range(of: "https://tlc4u.churchcenter.com") != nil{
+            decisionHandler(.allow)
+        }
+        else{
+            decisionHandler(.cancel)
+            return
+        }
     }
-    */
 
 }
