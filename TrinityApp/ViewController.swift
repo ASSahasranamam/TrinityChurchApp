@@ -8,9 +8,6 @@
 
 import UIKit
 import WebKit
-//import FBSDKLoginKit
-//import Firebase
-
 
 class ViewController: UIViewController{
 
@@ -25,9 +22,6 @@ class ViewController: UIViewController{
     @IBOutlet weak var kimberlyWayButton: UIButton!
     
     
-    
-    var isSideOpen = false
-    
  
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,30 +29,9 @@ class ViewController: UIViewController{
         sideMenus()
         customizeNavBar()
         customizeChurchButtons()
-        // Do any additional setup after loading the view.
-        
-        //Facebook Credentials
-/*        let loginButton = FBSDKLoginButton()
-        view.addSubview(loginButton)
-        loginButton.frame = CGRect(x: 16, y: 60 , width: view.frame.width - 32, height: 25)*/
-        
+       
     }
     
-    /*
-    func checkInButtonTrack() {
-        print("We are in tracker")
-        if isSideOpen{
-            print("TRUE")
-            isSideOpen = false
-            self.view.isUserInteractionEnabled = false
-        }
-        if isSideOpen == false{
-            print("FALSE")
-            isSideOpen = true
-            self.view.isUserInteractionEnabled = true
-        }
-    }
-    */
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

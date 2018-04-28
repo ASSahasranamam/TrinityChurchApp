@@ -11,15 +11,14 @@
 		AD0370C22034EA00002DC64C /* TrinityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0370C12034EA00002DC64C /* TrinityAppUITests.swift */; };
 		AD38CB192093051E008FF84C /* TrinityApp.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = AD38CB182093051D008FF84C /* TrinityApp.xcworkspace */; };
 		AD614EC82092ECD3003B295C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD614EB52092ECCF003B295C /* ViewController.swift */; };
-		AD614ECA2092ECD3003B295C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD614EB72092ECCF003B295C /* AboutUsViewController.swift */; };
 		AD614ECB2092ECD3003B295C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD614EB82092ECCF003B295C /* Info.plist */; };
 		AD614ECC2092ECD3003B295C /* GiveWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD614EB92092ECCF003B295C /* GiveWebViewController.swift */; };
 		AD614ECD2092ECD3003B295C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD614EBA2092ECD0003B295C /* AppDelegate.swift */; };
 		AD614ED12092ECD3003B295C /* GroupsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD614EBE2092ECD0003B295C /* GroupsWebViewController.swift */; };
 		AD614ED42092ECD3003B295C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD614EC22092ECD1003B295C /* SWRevealViewController.m */; };
 		AD614ED72092ECD3003B295C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD614EC52092ECD2003B295C /* Assets.xcassets */; };
-		AD614EDB2092EE69003B295C /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AD614ED92092EE69003B295C /* Base.lproj */; };
 		AD614EDC2092EE69003B295C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD614EDA2092EE69003B295C /* Assets.xcassets */; };
+		AD67EF6C2094263B00F8166B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD67EF61209362C300F8166B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +48,6 @@
 		AD0370C32034EA00002DC64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD38CB182093051D008FF84C /* TrinityApp.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = TrinityApp.xcworkspace; sourceTree = "<group>"; };
 		AD614EB52092ECCF003B295C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = TrinityApp/ViewController.swift; sourceTree = "<group>"; };
-		AD614EB72092ECCF003B295C /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutUsViewController.swift; path = TrinityApp/AboutUsViewController.swift; sourceTree = "<group>"; };
 		AD614EB82092ECCF003B295C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TrinityApp/Info.plist; sourceTree = "<group>"; };
 		AD614EB92092ECCF003B295C /* GiveWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GiveWebViewController.swift; path = TrinityApp/GiveWebViewController.swift; sourceTree = "<group>"; };
 		AD614EBA2092ECD0003B295C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TrinityApp/AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,8 +56,9 @@
 		AD614EC22092ECD1003B295C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = TrinityApp/SWRevealViewController.m; sourceTree = "<group>"; };
 		AD614EC52092ECD2003B295C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TrinityApp/Assets.xcassets; sourceTree = "<group>"; };
 		AD614EC62092ECD2003B295C /* TrinityApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TrinityApp-Bridging-Header.h"; path = "TrinityApp/TrinityApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		AD614ED92092EE69003B295C /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = TrinityApp/Base.lproj; sourceTree = "<group>"; };
 		AD614EDA2092EE69003B295C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TrinityApp/Assets.xcassets; sourceTree = "<group>"; };
+		AD67EF62209362C300F8166B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TrinityApp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD67EF64209362CB00F8166B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TrinityApp/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +91,8 @@
 			children = (
 				AD38CB182093051D008FF84C /* TrinityApp.xcworkspace */,
 				AD614EDA2092EE69003B295C /* Assets.xcassets */,
-				AD614ED92092EE69003B295C /* Base.lproj */,
-				AD614EB72092ECCF003B295C /* AboutUsViewController.swift */,
+				AD67EF61209362C300F8166B /* Main.storyboard */,
+				AD67EF63209362CB00F8166B /* LaunchScreen.storyboard */,
 				AD614EBA2092ECD0003B295C /* AppDelegate.swift */,
 				AD614EC52092ECD2003B295C /* Assets.xcassets */,
 				AD614EB92092ECCF003B295C /* GiveWebViewController.swift */,
@@ -246,9 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD614ECB2092ECD3003B295C /* Info.plist in Resources */,
+				AD67EF6C2094263B00F8166B /* Main.storyboard in Resources */,
 				AD38CB192093051E008FF84C /* TrinityApp.xcworkspace in Resources */,
 				AD614EDC2092EE69003B295C /* Assets.xcassets in Resources */,
-				AD614EDB2092EE69003B295C /* Base.lproj in Resources */,
 				AD614ED72092ECD3003B295C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +276,6 @@
 				AD614ECD2092ECD3003B295C /* AppDelegate.swift in Sources */,
 				AD614ED12092ECD3003B295C /* GroupsWebViewController.swift in Sources */,
 				AD614ECC2092ECD3003B295C /* GiveWebViewController.swift in Sources */,
-				AD614ECA2092ECD3003B295C /* AboutUsViewController.swift in Sources */,
 				AD614EC82092ECD3003B295C /* ViewController.swift in Sources */,
 				AD614ED42092ECD3003B295C /* SWRevealViewController.m in Sources */,
 			);
@@ -313,6 +311,25 @@
 			targetProxy = AD0370BE2034EA00002DC64C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD67EF61209362C300F8166B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD67EF62209362C300F8166B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD67EF63209362CB00F8166B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD67EF64209362CB00F8166B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AD0370C42034EA00002DC64C /* Debug */ = {
