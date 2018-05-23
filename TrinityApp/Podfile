@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+#workspace ‘Google Drive/Valpo//Classes Valpo/CS-358-AX/CS-358 Project/TrinityApp/#TrinityApp.xcworkspace’
+
+target 'TrinityApp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TrinityApp\
+
+	pod ‘Firebase/Core’
+pod 'Firebase/Core'	#Prerequisite libraries and Analyticspod 'Firebase/AdMob'	#AdMobpod ‘Firebase/Analytics’pod 'Firebase/Messaging'	#Cloud Messagingpod 'Firebase/Database'	#Realtime Databasepod 'Firebase/Invites'	#Invitespod 'Firebase/DynamicLinks'	#Dynamic Linkspod 'Firebase/Crash'	#Crash Reportingpod 'Firebase/RemoteConfig'	#Remote Configpod 'Firebase/Auth'	#Authenticationpod 'Firebase/Storage'	#Storagepod 'Firebase/Performance'	#Performance Monitoringpod 'Firebase/Firestore'	#Cloud Firestorepod 'Firebase/Functions'	#Cloud Functions for Firebase Client SDK
+
+
+  target 'TrinityAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+
+	pod ‘Firebase/Core’
+pod 'Firebase/Core'	#Prerequisite libraries and Analyticspod 'Firebase/AdMob'	#AdMobpod ‘Firebase/Analytics’pod 'Firebase/Messaging'	#Cloud Messagingpod 'Firebase/Database'	#Realtime Databasepod 'Firebase/Invites'	#Invitespod 'Firebase/DynamicLinks'	#Dynamic Linkspod 'Firebase/Crash'	#Crash Reportingpod 'Firebase/RemoteConfig'	#Remote Configpod 'Firebase/Auth'	#Authenticationpod 'Firebase/Storage'	#Storagepod 'Firebase/Performance'	#Performance Monitoringpod 'Firebase/Firestore'	#Cloud Firestorepod 'Firebase/Functions'	#Cloud Functions for Firebase Client SDK
+	
+  end
+
+  target 'TrinityAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+
+	pod ‘Firebase/Core’
+pod 'Firebase/Core'	#Prerequisite libraries and Analyticspod 'Firebase/AdMob'	#AdMobpod ‘Firebase/Analytics’pod 'Firebase/Messaging'	#Cloud Messagingpod 'Firebase/Database'	#Realtime Databasepod 'Firebase/Invites'	#Invitespod 'Firebase/DynamicLinks'	#Dynamic Linkspod 'Firebase/Crash'	#Crash Reportingpod 'Firebase/RemoteConfig'	#Remote Configpod 'Firebase/Auth'	#Authenticationpod 'Firebase/Storage'	#Storagepod 'Firebase/Performance'	#Performance Monitoringpod 'Firebase/Firestore'	#Cloud Firestorepod 'Firebase/Functions'	#Cloud Functions for Firebase Client SDK
+  end
+
+end

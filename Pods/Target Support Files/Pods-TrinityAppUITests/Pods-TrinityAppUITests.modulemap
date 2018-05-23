@@ -1,0 +1,6 @@
+framework module Pods_TrinityAppUITests {
+  umbrella header "Pods-TrinityAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

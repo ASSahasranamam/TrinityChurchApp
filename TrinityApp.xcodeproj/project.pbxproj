@@ -19,6 +19,7 @@
 		AD614ED72092ECD3003B295C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD614EC52092ECD2003B295C /* Assets.xcassets */; };
 		AD614EDC2092EE69003B295C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD614EDA2092EE69003B295C /* Assets.xcassets */; };
 		AD67EF6C2094263B00F8166B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD67EF61209362C300F8166B /* Main.storyboard */; };
+		ADD36AF42097C70800861BC7 /* AboutWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD36AF32097C70800861BC7 /* AboutWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		AD614EDA2092EE69003B295C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TrinityApp/Assets.xcassets; sourceTree = "<group>"; };
 		AD67EF62209362C300F8166B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TrinityApp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD67EF64209362CB00F8166B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TrinityApp/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADD36AF32097C70800861BC7 /* AboutWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				AD38CB182093051D008FF84C /* TrinityApp.xcworkspace */,
 				AD614EDA2092EE69003B295C /* Assets.xcassets */,
 				AD67EF61209362C300F8166B /* Main.storyboard */,
+				ADD36AF32097C70800861BC7 /* AboutWebView.swift */,
 				AD67EF63209362CB00F8166B /* LaunchScreen.storyboard */,
 				AD614EBA2092ECD0003B295C /* AppDelegate.swift */,
 				AD614EC52092ECD2003B295C /* Assets.xcassets */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD614ECD2092ECD3003B295C /* AppDelegate.swift in Sources */,
+				ADD36AF42097C70800861BC7 /* AboutWebView.swift in Sources */,
 				AD614ED12092ECD3003B295C /* GroupsWebViewController.swift in Sources */,
 				AD614ECC2092ECD3003B295C /* GiveWebViewController.swift in Sources */,
 				AD614EC82092ECD3003B295C /* ViewController.swift in Sources */,
